@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Document</title>
+        <link href="bootstrap.css" rel="stylesheet">
+        <style>
+
+            body {
+             background:url('macbook_3-wallpaper-1366x768.jpg')black no-repeat;
+             margin: 0;
+             padding:: 0;
+             background-size: cover;
+            }
+            .login-box h2{
+                margin-bottom: 50px;
+                padding: 13px 0;
+                float: left;
+                font-size: 40px;
+    
+            }
+            
+             .login-box{
+            width: 280px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: white;
+            
+        } 
+    
+    .text-box{
+        width: 100%;
+        overflow: hidden;
+        font-size: 20px;
+        padding: 8px 0;
+        margin: 8px 0;
+        border-bottom: 1px solid #007bff;
+        
+    }.text-box input{
+        border: none;
+        outline: none;
+        background: none;
+        color: white;
+        font-size: 18px;
+        width: 80%;
+        float: left;
+        margin: 0 10px;
+    }
+    .btn{
+        width: 100%;
+        background: none;
+        border: 2px solid #007bff;
+        color: white;
+        padding: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        margin: 12px 0;
+    }
+        </style>
+    </head>
+    <body>
+        <nav class=" navbar  navbar-expand-sm navbar-dark" style="background-color:#007bff"><!--or md-->
+            <a href="welcome.php" class="navbar-brand" style="font-family:'Times New Roman', Times, serif">AIRRR UNIVERSE</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto "><!--mr-auto align left-->
+                <li class="nav-item active">
+                
+            
+                   <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                   role="button" data-toggle="dropdown">Plartforms</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Photography</a>
+                        <div class="dropdown-divider"></div>
+                         <a class="dropdown-item" href="#">View Our portfolio</a>
+                     <div class="dropdown-divider"></div>
+                         <a class="dropdown-item" href="#">Trainings</a>
+                       </div>
+                </li>
+                  <li class="nav-item">
+                <a id=""About href="/about" class="nav-link">About</a>    
+                </li>
+                </ul>                 
+                    </div></nav>
+                    <center>
+                        <div class="login-box">
+                            <h2>Login!</h2>
+                            
+                            <form action="/login" method="POST">
+                                
+        
+                                    <div class="text-box fontuser">
+                                       <i class="fa fa-user-circle user"></i> 
+                                    <input id="name" type="text" name="name" placeholder="Username" autocomplete="false"/> </div>
+                                    <span class="help-block"></span>
+                                     
+                               
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-block btn-primary" >Submit</button>
+                                </div>
+                </form></div></center>
+            
+            <script type="text/javascript" src="jquery.js"></script> 
+            <script src="main.js"></script>
+        <script src="bootstrap.js"></script>
+    </body>
+    </body>
+</html>
